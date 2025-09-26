@@ -44,6 +44,8 @@ pip install gcastle==1.0.4rc1
 python src/inference.py --config_file config/aggregator_tf_gies.yaml --run_name hepar2_gies --data_file data/hepar2.csv --save_path outputs/hepar2_test --results_file predictions.npy --checkpoint_path checkpoints/gies_synthetic/model_best_epoch=535_auprc=0.849.ckpt --gpu -1
 ```
 
+If you have a GPU, use it accordingly
+
 
 ### Expected Output
 After successful execution, you'll find:
