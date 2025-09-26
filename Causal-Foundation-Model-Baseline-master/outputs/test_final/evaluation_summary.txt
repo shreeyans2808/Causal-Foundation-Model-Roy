@@ -1,0 +1,12 @@
+
+Causal Discovery Evaluation Summary
+==================================
+
+Data Info:
+- Graph size: 100x100
+- True edges: 0.0
+- Prediction range: [0.000000, 0.782835]
+
+Performance Metrics:
+- Available through MetricsDAG evaluation above
+- See console output for detailed results
