@@ -115,9 +115,9 @@ python evaluate_predictions.py \
 # 1. Prepare data (already provided)
 ls data/hepar2.csv data/hepar2adj.npy
 
-# 2. Run the model
+# 2. Run the model(with no gpu)
 cd src
-python inference.py --data ../data/hepar2.csv --output ../outputs/hepar2_test/
+python inference.py --config_file config/aggregator_tf_gies.yaml --run_name hepar2_gies --data_file data/hepar2.csv --save_path outputs/hepar2_test --results_file predictions.npy --checkpoint_path checkpoints/gies_synthetic/model_best_epoch=535_auprc=0.849.ckpt --gpu -1
 
 # 3. Evaluate results
 cd ..
