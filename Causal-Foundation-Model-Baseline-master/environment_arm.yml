@@ -1,0 +1,21 @@
+name: causal-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - requests
+  - ruamel.yaml
+  - pip
+  - pip:
+      - blessed==1.20.0
+      - gpustat==1.1
+      - psutil==5.9.5
+      - six==1.16.0
+      - wcwidth==0.2.6

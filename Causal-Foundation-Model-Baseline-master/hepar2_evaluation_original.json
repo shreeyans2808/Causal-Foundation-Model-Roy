@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "time": "tensor([0.1109], dtype=torch.float64)",
+    "auc": 0.0,
+    "prc": NaN,
+    "dataset_key": "hepar2"
+  },
+  "summary_stats": {
+    "matrix_shape": [
+      65,
+      65
+    ],
+    "min_pred": 0.0,
+    "max_pred": 0.4695170819759369,
+    "mean_pred": 0.028737313329103023,
+    "std_pred": 0.0281241748625454
+  },
+  "threshold_results": [
+    {
+      "threshold": 0.001,
+      "pred_edges": "3495",
+      "true_positives": "102",
+      "false_positives": "3393",
+      "precision": 0.029184549356223177,
+      "recall": 0.8947368421052632,
+      "f1": 0.05652535328345803,
+      "specificity": 0.17465336900997325
+    },
+    {
+      "threshold": 0.005,
+      "pred_edges": "3332",
+      "true_positives": "100",
+      "false_positives": "3232",
+      "precision": 0.030012004801920768,
+      "recall": 0.8771929824561403,
+      "f1": 0.05803830528148578,
+      "specificity": 0.21381658963755779
+    },
+    {
+      "threshold": 0.01,
+      "pred_edges": "3145",
+      "true_positives": "95",
+      "false_positives": "3050",
+      "precision": 0.030206677265500796,
+      "recall": 0.8333333333333334,
+      "f1": 0.058300092052776926,
+      "specificity": 0.25808805643395766
+    },
+    {
+      "threshold": 0.02,
+      "pred_edges": "2435",
+      "true_positives": "74",
+      "false_positives": "2361",
+      "precision": 0.030390143737166326,
+      "recall": 0.6491228070175439,
+      "f1": 0.05806198509219302,
+      "specificity": 0.4256871807346144
+    },
+    {
+      "threshold": 0.05,
+      "pred_edges": "796",
+      "true_positives": "28",
+      "false_positives": "768",
+      "precision": 0.035175879396984924,
+      "recall": 0.24561403508771928,
+      "f1": 0.061538461538461535,
+      "specificity": 0.8131841401118949
+    },
+    {
+      "threshold": 0.1,
+      "pred_edges": "62",
+      "true_positives": "4",
+      "false_positives": "58",
+      "precision": 0.06451612903225806,
+      "recall": 0.03508771929824561,
+      "f1": 0.04545454545454545,
+      "specificity": 0.985891510581367
+    },
+    {
+      "threshold": 0.15,
+      "pred_edges": "19",
+      "true_positives": "1",
+      "false_positives": "18",
+      "precision": 0.05263157894736842,
+      "recall": 0.008771929824561403,
+      "f1": 0.015037593984962405,
+      "specificity": 0.9956215032838726
+    },
+    {
+      "threshold": 0.2,
+      "pred_edges": "13",
+      "true_positives": "1",
+      "false_positives": "12",
+      "precision": 0.07692307692307693,
+      "recall": 0.008771929824561403,
+      "f1": 0.015748031496062992,
+      "specificity": 0.9970810021892483
+    },
+    {
+      "threshold": 0.3,
+      "pred_edges": "4",
+      "true_positives": "0",
+      "false_positives": "4",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "specificity": 0.9990270007297495
+    },
+    {
+      "threshold": 0.4,
+      "pred_edges": "2",
+      "true_positives": "0",
+      "false_positives": "2",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "specificity": 0.9995135003648747
+    },
+    {
+      "threshold": 0.5,
+      "pred_edges": "0",
+      "true_positives": "0",
+      "false_positives": "0",
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "specificity": 1.0
+    }
+  ],
+  "best_threshold": 0.05,
+  "best_f1": 0.061538461538461535,
+  "gcastle_results": {
+    "threshold_used": 0.060000000000000005,
+    "fdr": 0.8421,
+    "tpr": 0.125,
+    "fpr": 0.0577,
+    "shd": 465,
+    "nnz": 114,
+    "precision": 0.1579,
+    "recall": 0.0433,
+    "F1": 0.0679,
+    "gscore": 0.0
+  },
+  "auroc": 0.5420731760196338,
+  "auprc": 0.033890246389357996
+}

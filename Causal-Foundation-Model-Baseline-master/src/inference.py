@@ -15,6 +15,8 @@ from args import parse_args
 from data import InferenceDataModule, BaselineDataModule
 from model import load_model
 from utils import printt, get_suffix, save_pickle
+import argparse
+torch.serialization.add_safe_globals([argparse.Namespace])
 
 
 # TODO why not?

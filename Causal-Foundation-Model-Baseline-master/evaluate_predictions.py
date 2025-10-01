@@ -47,7 +47,7 @@ def load_predictions(predictions_path):
     print(f"📁 Loading predictions from: {predictions_path}")
     
     # Load the predictions file
-    data = np.load(predictions_path, allow_pickle=True).item()
+    data = np.load(predictions_path, allow_pickle=True)
     
     # Handle different data structures
     if isinstance(data, dict):
